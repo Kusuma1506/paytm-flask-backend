@@ -30,7 +30,7 @@ POST /create-user
 
 Example JSON:
 {
-"name": "Kusuma",
+"name": "Kusu",
 "balance": 1000
 }
 
@@ -47,8 +47,8 @@ POST /send-money
 
 Example JSON:
 {
-"sender": "Kusuma",
-"receiver": "Rahul",
+"sender": "Kusu",
+"receiver": honey",
 "amount": 200
 }
 
