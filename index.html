@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini Paytm</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Mini Paytm Wallet</h1>
+
+<div class="card">
+
+<h2>Create User</h2>
+
+<input id="name" placeholder="Enter username">
+<input id="balance" placeholder="Enter starting balance">
+
+<button onclick="createUser()">Create User</button>
+
+<p id="createMsg"></p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Check Balance</h2>
+
+<input id="balanceName" placeholder="Enter username">
+
+<button onclick="checkBalance()">Check</button>
+
+<h3 id="balanceResult"></h3>
+
+</div>
+
+
+<div class="card">
+
+<h2>Send Money</h2>
+
+<input id="sender" placeholder="Sender">
+<input id="receiver" placeholder="Receiver">
+<input id="amount" placeholder="Amount">
+
+<button onclick="sendMoney()">Send Money</button>
+
+<p id="sendMsg"></p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Transactions</h2>
+
+<button onclick="loadTransactions()">Load Transactions</button>
+
+<table border="1" width="100%">
+<thead>
+<tr>
+<th>Sender</th>
+<th>Receiver</th>
+<th>Amount</th>
+</tr>
+</thead>
+
+<tbody id="txTable"></tbody>
+
+</table>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
