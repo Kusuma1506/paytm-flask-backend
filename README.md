@@ -11,6 +11,11 @@ Flask
 
 SQLite
 
+Html
+CSS
+Javascript
+
+
 Postman (API Testing)
 
 Features
